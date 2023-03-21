@@ -1,0 +1,22 @@
+.main {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 75px;
+    height: 75px;
+  }
+
+  h2 {
+    margin: 0px;
+  }
+
+  .navlink {
+    color: var(--color-fifth);
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

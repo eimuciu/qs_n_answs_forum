@@ -1,0 +1,13 @@
+.main {
+  margin-bottom: 20px;
+
+  input {
+    padding: 5px 20px;
+    width: 100%;
+    outline: none;
+  }
+  .errMsg {
+    font-size: 13px;
+    color: var(--color-third);
+  }
+}

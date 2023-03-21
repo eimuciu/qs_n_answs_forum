@@ -1,0 +1,16 @@
+.main {
+  border-top: 1px solid lightgray;
+  padding: 10px 0px;
+  position: relative;
+
+  a {
+    text-decoration: none;
+    color: var(--color-secondary);
+  }
+}
+
+.info {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+}

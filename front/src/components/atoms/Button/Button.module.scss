@@ -1,0 +1,36 @@
+@mixin buttonM {
+  padding: 10px 30px;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button {
+  @include buttonM;
+}
+
+.formButton {
+  @include buttonM;
+  $color: var(--color-fifth);
+  background-color: transparent;
+  border: 1px solid $color;
+  color: $color;
+}
+
+.answerButton {
+  @include buttonM;
+  $color: var(--color-third);
+  background-color: $color;
+  color: white;
+}
+
+.filterButton {
+  @include buttonM;
+  $color: var(--color-fifth);
+  background-color: $color;
+  color: white;
+  padding: 5px 15px;
+  margin-left: 5px;
+}

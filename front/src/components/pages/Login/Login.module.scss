@@ -1,0 +1,15 @@
+.main {
+  width: 70%;
+  position: relative;
+  span {
+    color: var(--color-third);
+  }
+  p {
+    color: white;
+    span {
+      color: var(--color-primary);
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

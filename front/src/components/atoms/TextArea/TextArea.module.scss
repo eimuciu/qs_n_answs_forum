@@ -1,0 +1,15 @@
+.main {
+  margin-bottom: 20px;
+
+  textarea {
+    padding: 5px 20px;
+    width: 100%;
+    outline: none;
+    font-family: inherit;
+  }
+
+  .errMsg {
+    font-size: 13px;
+    color: var(--color-third);
+  }
+}
